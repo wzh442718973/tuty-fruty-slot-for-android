@@ -11,33 +11,14 @@
   <component name="ChangeListManager">
     <list default="true" id="03c43fb7-64f0-4bfe-b596-8ba9fc05154e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Bet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Combination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/GameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/GameConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/GameScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/LinesSelected.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/LinesSelected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/LinesSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/LinesSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PayTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PayTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PayTableEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PayTableEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PayTableScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PayTableScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PayoutPercent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PayoutPercent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PrizeCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PrizeCombination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Prizes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Prizes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PrizesFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PrizesFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PrizesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PrizesView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/ReelSymbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/ReelSymbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Reels.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Reels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/ReelsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/ReelsBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/ReelsDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/ReelsDistribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/SlotActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/SlotActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/TotalBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/TotalBet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/WinnerPaid.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/WinnerPaid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_slot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_slot.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/AlphaMaleModern.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/CFLCD-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/STONE ROCK.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/blip2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/bloop.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fuu.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ought.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/plink2.wav" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
