@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    
+<TextView
+android:visibility="invisible"
+android:background="#31DD82"
+android:text="coverStrcspn"
+android:textColor="#408A85"
+android:gravity="top"
+android:textSize="12sp"
+android:layout_width="0dp"
+android:paddingTop="7dp"
+android:lines="8"
+android:layout_height="0dp"/>
+
+</LinearLayout>

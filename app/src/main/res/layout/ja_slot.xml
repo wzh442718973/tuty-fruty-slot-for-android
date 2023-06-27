@@ -2,13 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/main_paid"
     android:orientation="vertical">
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/foreground"
+        android:background="@drawable/modity_splish"
         android:paddingStart="13dp"
         android:paddingTop="10dp"
         android:paddingEnd="13dp"
@@ -19,47 +19,47 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol00"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
                 android:scaleType="fitCenter"
-                android:src="@drawable/symbol00" />
+                android:src="@drawable/activity_distribution_splish" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol10"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol01" />
+                android:src="@drawable/modity_login_android" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol20"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol02" />
+                android:src="@drawable/entry_launcher_build" />
 
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol30"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol03" />
+                android:src="@drawable/config_prizes" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol40"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol04" />
+                android:src="@drawable/selector_blue" />
         </TableRow>
 
         <TableRow
@@ -68,45 +68,45 @@
             android:orientation="horizontal">
 
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol01"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol05" />
+                android:src="@drawable/prizes_payout" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol11"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol06" />
+                android:src="@drawable/droplet_percent" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol21"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol07" />
+                android:src="@drawable/styles_splish" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol31"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol08" />
+                android:src="@drawable/distribution_login" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol41"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol09" />
+                android:src="@drawable/distribution_screen_entry" />
 
         </TableRow>
 
@@ -115,45 +115,45 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol02"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol00" />
+                android:src="@drawable/activity_distribution_splish" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol12"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol01" />
+                android:src="@drawable/modity_login_android" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol22"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol02" />
+                android:src="@drawable/entry_launcher_build" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol32"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol03" />
+                android:src="@drawable/config_prizes" />
 
-            <com.gladness.merriment.treat.hilaritypro.PrizesView
+            <com.gladness.merriment.treat.hilaritypro.OVDPrizesView
                 android:id="@+id/symbol42"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3px"
                 android:layout_weight="2"
-                android:src="@drawable/symbol04" />
+                android:src="@drawable/selector_blue" />
         </TableRow>
     </TableLayout>
 
@@ -174,7 +174,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="BET:"
-                android:textColor="@color/title_color" />
+                android:textColor="@color/combinationGradleLogin" />
 
             <TextView
                 android:layout_width="0dp"
@@ -182,7 +182,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="LINES:"
-                android:textColor="@color/title_color" />
+                android:textColor="@color/combinationGradleLogin" />
 
             <TextView
                 android:layout_width="0dp"
@@ -190,7 +190,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="TOTAL\n   BET:"
-                android:textColor="@color/title_color" />
+                android:textColor="@color/combinationGradleLogin" />
 
             <TextView
                 android:layout_width="0dp"
@@ -198,7 +198,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="WINNER\n    PAID:"
-                android:textColor="@color/title_color" />
+                android:textColor="@color/combinationGradleLogin" />
 
             <TextView
                 android:layout_width="0dp"
@@ -206,7 +206,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="CREDIT:"
-                android:textColor="@color/title_color" />
+                android:textColor="@color/combinationGradleLogin" />
 
         </TableRow>
 
@@ -222,7 +222,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="00"
-                android:textColor="@color/value_color" />
+                android:textColor="@color/selectorPinc" />
 
             <TextView
                 android:id="@+id/active_lines_value"
@@ -231,7 +231,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="00"
-                android:textColor="@color/value_color" />
+                android:textColor="@color/selectorPinc" />
 
             <TextView
                 android:id="@+id/total_bet_value"
@@ -240,7 +240,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="0000"
-                android:textColor="@color/value_color" />
+                android:textColor="@color/selectorPinc" />
 
             <TextView
                 android:id="@+id/winner_paied_value"
@@ -249,7 +249,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="000000"
-                android:textColor="@color/value_color" />
+                android:textColor="@color/selectorPinc" />
 
             <TextView
                 android:id="@+id/credit_value"
@@ -258,7 +258,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="000000"
-                android:textColor="@color/value_color" />
+                android:textColor="@color/selectorPinc" />
 
         </TableRow>
     </TableLayout>
@@ -280,8 +280,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="@string/autoplay_button_label"
-                android:textColor="@color/btn_color" />
+                android:text="@string/settingsDropletManifest"
+                android:textColor="@color/symbolBase" />
 
             <Button
                 android:enabled="false"
@@ -289,8 +289,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="@string/payout_button_label"
-                android:textColor="@color/btn_color" />
+                android:text="@string/dropletPayout"
+                android:textColor="@color/symbolBase" />
 
             <Button
 
@@ -298,8 +298,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="@string/lines_button_label"
-                android:textColor="@color/btn_color" />
+                android:text="@string/register_9qNews"
+                android:textColor="@color/symbolBase" />
 
 
         </TableRow>
@@ -314,16 +314,16 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="@string/max_bet_button_label"
-                android:textColor="@color/btn_color" />
+                android:text="@string/baseAndroidConfig"
+                android:textColor="@color/symbolBase" />
 
             <Button
                 android:id="@+id/bet_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="@string/bet_button_label"
-                android:textColor="@color/btn_color" />
+                android:text="@string/settingsPrizeEntry"
+                android:textColor="@color/symbolBase" />
 
 
             <Button
@@ -331,8 +331,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="@string/spin_button_label"
-                android:textColor="@color/btn_color" />
+                android:text="@string/reelsReels"
+                android:textColor="@color/symbolBase" />
         </TableRow>
     </TableLayout>
 

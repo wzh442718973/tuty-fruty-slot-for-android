@@ -1,0 +1,324 @@
+开始自动混淆项目代码扫描文件中。。。。。。
+
+
+混淆项目路径：/Volumes/192.168.2.9/github/tuty-fruty-slot-for-android
+新文件 <-> 现有文件 : AndroidManifest.xml      AndroidManifest.xml
+新文件 <-> 现有文件 : AMain.java      LinesSelected.java
+新文件 <-> 现有文件 : XSelectorRegister.java      PrizeCombination.java
+新文件 <-> 现有文件 : symbol_table_droplet.jpg      splish.jpg
+新文件 <-> 现有文件 : YWMainBuild.java      ReelsDistribution.java
+新文件 <-> 现有文件 : KLocalDistribution.java      Bet.java
+新文件 <-> 现有文件 : ja_slot.xml      activity_slot.xml
+新文件 <-> 现有文件 : VWinner.java      ReelSymbol.java
+新文件 <-> 现有文件 : KOTotalPrize.java      Combination.java
+新文件 <-> 现有文件 : screen_manifest_modity.wav      droplet.wav
+新文件 <-> 现有文件 : KQGreenReelsActivity.java      SlotActivity.java
+新文件 <-> 现有文件 : GDSymbolDroplet.java      LinesSelector.java
+新文件 <-> 现有文件 : HSRColorsManifest.java      Credit.java
+新文件 <-> 现有文件 : droplet_edit_util.wav      pinc.wav
+新文件 <-> 现有文件 : JGAEntry.java      PayoutPercent.java
+新文件 <-> 现有文件 : WCHLines.java      TotalBet.java
+新文件 <-> 现有文件 : UFModityDistribution.java      GameConfig.java
+新文件 <-> 现有文件 : colors.xml      colors.xml
+新文件 <-> 现有文件 : FRSelectorGradle.java      Util.java
+新文件 <-> 现有文件 : QMHome.java      PayTable.java
+新文件 <-> 现有文件 : BCombination.java      Prizes.java
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : SKEntry.java      GameScreen.java
+新文件 <-> 现有文件 : KStylesPaid.java      PayTableEntry.java
+新文件 <-> 现有文件 : USplish.java      PrizesFrequency.java
+新文件 <-> 现有文件 : UKDistribution.java      WinnerPaid.java
+新文件 <-> 现有文件 : styles.xml      styles.xml
+新文件 <-> 现有文件 : OVDPrizesView.java      PrizesView.java
+新文件 <-> 现有文件 : XConfig.java      PayTableScreen.java
+新文件 <-> 现有文件 : styles.xml      styles.xml
+新文件 <-> 现有文件 : AALines.java      Reels.java
+新文件 <-> 现有文件 : styles.xml      styles.xml
+新文件 <-> 现有文件 : ZLSymbolStrings.java      ReelsBase.java
+新文件 <-> 现有文件 : main_paid.9.png      background.9.png
+新文件 <-> 现有文件 : modity_splish.9.png      foreground.9.png
+新文件 <-> 现有文件 : activity_paid.png      ic_launcher.png
+新文件 <-> 现有文件 : settings_home_activity.png      lcd_blue_32x32.png
+新文件 <-> 现有文件 : settings_green.png      lcd_green_32x32.png
+新文件 <-> 现有文件 : login_game.png      lcd_red_32x32.png
+新文件 <-> 现有文件 : activity_distribution_splish.png      symbol00.png
+新文件 <-> 现有文件 : modity_login_android.png      symbol01.png
+新文件 <-> 现有文件 : entry_launcher_build.png      symbol02.png
+新文件 <-> 现有文件 : config_prizes.png      symbol03.png
+新文件 <-> 现有文件 : selector_blue.png      symbol04.png
+新文件 <-> 现有文件 : prizes_payout.png      symbol05.png
+新文件 <-> 现有文件 : droplet_percent.png      symbol06.png
+新文件 <-> 现有文件 : styles_splish.png      symbol07.png
+新文件 <-> 现有文件 : distribution_login.png      symbol08.png
+新文件 <-> 现有文件 : distribution_screen_entry.png      symbol09.png
+
+
+自动为您开启5个线程进行混淆。。。。。。。
+开始自动清理源代码中的注释。。。。。。
+
+
+
+
+
+
+
+正在自动获取分析过滤不能修改函数名称集合。。。。。
+
+
+开始提取所有源文件中的类名并生成新类名。。。。。。
+类名: Util <---替换为---> FRSelectorGradle
+类名: LinesSelected <---替换为---> AMain
+类名: PrizesView <---替换为---> OVDPrizesView
+类名: SlotActivity <---替换为---> KQGreenReelsActivity
+类名: PayTable <---替换为---> QMHome
+类名: PayTableScreen <---替换为---> XConfig
+类名: PrizeCombination <---替换为---> XSelectorRegister
+类名: Reels <---替换为---> AALines
+类名: ReelsBase <---替换为---> ZLSymbolStrings
+类名: ReelsDistribution <---替换为---> YWMainBuild
+类名: Bet <---替换为---> KLocalDistribution
+类名: ReelSymbol <---替换为---> VWinner
+类名: Combination <---替换为---> KOTotalPrize
+类名: LinesSelector <---替换为---> GDSymbolDroplet
+类名: Credit <---替换为---> HSRColorsManifest
+类名: TotalBet <---替换为---> WCHLines
+类名: PayoutPercent <---替换为---> JGAEntry
+类名: GameConfig <---替换为---> UFModityDistribution
+类名: Prizes <---替换为---> BCombination
+类名: GameScreen <---替换为---> SKEntry
+类名: PayTableEntry <---替换为---> KStylesPaid
+类名: PrizesFrequency <---替换为---> USplish
+类名: WinnerPaid <---替换为---> UKDistribution
+
+
+开始替换所有源文件中的类名。。。。。。
+
+
+
+混淆类名耗时：0.10599184036254883秒
+
+
+混淆图片xml资源耗时：0.045918941497802734秒
+
+<color>: title_color ===> combinationGradleLogin
+<color>: btn_color ===> symbolBase
+<color>: value_color ===> selectorPinc
+<string>: max_bet_button_label ===> baseAndroidConfig
+<string>: payout_button_label ===> dropletPayout
+<string>: autoplay_button_label ===> settingsDropletManifest
+<string>: spin_button_label ===> reelsReels
+<string>: lines_button_label ===> register_9qNews
+<string>: bet_button_label ===> settingsPrizeEntry
+<style>: AppBaseTheme ===> paidCombinationLines
+
+
+开始混淆枚举。。。。。。。
+
+
+开始提取所有协议名并生成新协议名。。。。。。
+
+
+开始翻新xib、storyboard控件ID值以及布局微调。。。。。。
+
+
+开始多语言文件的key名称。。。。。。
+
+
+开始自动检测类继承关系。。。。。。
+
+
+开始自动检测统计所有文件中属性信息。。。。。。
+
+
+开始自动修改sks资源名称。。。。。。。
+
+sks资源修改结束
+
+开始打乱函数定义顺序。。。。。。。
+100%👌
+
+开始提取分析源文件中函数名称。。。。。。。
+文件: [旧 LinesSelected <--> 新 AMain]    函数名称: getSelector
+文件: [旧 PayTable <--> 新 QMHome]    函数名称: getEntry
+文件: [旧 PrizesView <--> 新 OVDPrizesView]    函数名称: onMeasure
+文件: [旧 PayTable <--> 新 QMHome]    函数名称: setEntry
+文件: [旧 PrizeCombination <--> 新 XSelectorRegister]    函数名称: getCombination
+文件: [旧 PrizeCombination <--> 新 XSelectorRegister]    函数名称: setCombination
+文件: [旧 PrizeCombination <--> 新 XSelectorRegister]    函数名称: getSymbol
+文件: [旧 PrizeCombination <--> 新 XSelectorRegister]    函数名称: setSymbol
+文件: [旧 PrizeCombination <--> 新 XSelectorRegister]    函数名称: getCoefficient
+文件: [旧 PrizeCombination <--> 新 XSelectorRegister]    函数名称: setCoefficient
+文件: [旧 SlotActivity <--> 新 KQGreenReelsActivity]    函数名称: update
+文件: [旧 SlotActivity <--> 新 KQGreenReelsActivity]    函数名称: onCreate
+文件: [旧 PrizeCombination <--> 新 XSelectorRegister]    函数名称: getName
+文件: [旧 Reels <--> 新 AALines]    函数名称: spin
+文件: [旧 SlotActivity <--> 新 KQGreenReelsActivity]    函数名称: onClick
+文件: [旧 PrizeCombination <--> 新 XSelectorRegister]    函数名称: setName
+文件: [旧 Reels <--> 新 AALines]    函数名称: hasPrize
+文件: [旧 SlotActivity <--> 新 KQGreenReelsActivity]    函数名称: onDestroy
+文件: [旧 PrizeCombination <--> 新 XSelectorRegister]    函数名称: equals
+文件: [旧 Bet <--> 新 KLocalDistribution]    函数名称: getValue
+文件: [旧 Bet <--> 新 KLocalDistribution]    函数名称: setValue
+文件: [旧 Bet <--> 新 KLocalDistribution]    函数名称: cycleIncrement
+文件: [旧 Bet <--> 新 KLocalDistribution]    函数名称: maximum
+文件: [旧 LinesSelector <--> 新 GDSymbolDroplet]    函数名称: setAllSeleceted
+文件: [旧 LinesSelector <--> 新 GDSymbolDroplet]    函数名称: linesUp
+文件: [旧 LinesSelector <--> 新 GDSymbolDroplet]    函数名称: linesDown
+文件: [旧 LinesSelector <--> 新 GDSymbolDroplet]    函数名称: numberOfSelectedLines
+文件: [旧 LinesSelector <--> 新 GDSymbolDroplet]    函数名称: isActive
+文件: [旧 Credit <--> 新 HSRColorsManifest]    函数名称: increment
+文件: [旧 Credit <--> 新 HSRColorsManifest]    函数名称: decrement
+文件: [旧 TotalBet <--> 新 WCHLines]    函数名称: update
+文件: [旧 PayoutPercent <--> 新 JGAEntry]    函数名称: reset
+文件: [旧 PayoutPercent <--> 新 JGAEntry]    函数名称: increaseSumBet
+文件: [旧 PayoutPercent <--> 新 JGAEntry]    函数名称: increaseSumWin
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: getReels
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: setReels
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: getLines
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: setLines
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: getTotal
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: setTotal
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: getPaid
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: setPaid
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: getCredit
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: setCredit
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: setSelector
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: setBet
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: getBet
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: numberOfLinesChange
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: betChange
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: maxBetChange
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: addCredit
+文件: [旧 GameScreen <--> 新 SKEntry]    函数名称: spinReels
+文件: [旧 PayTableEntry <--> 新 KStylesPaid]    函数名称: setPrizeCombination
+文件: [旧 PrizesFrequency <--> 新 USplish]    函数名称: incrementSpins
+文件: [旧 PrizesFrequency <--> 新 USplish]    函数名称: getTotalNumberOfSpins
+文件: [旧 PrizesFrequency <--> 新 USplish]    函数名称: sortByName
+文件: [旧 PrizesFrequency <--> 新 USplish]    函数名称: sortByFrequency
+文件: [旧 PrizesFrequency <--> 新 USplish]    函数名称: print
+文件: [旧 WinnerPaid <--> 新 UKDistribution]    函数名称: clearFound
+文件: [旧 WinnerPaid <--> 新 UKDistribution]    函数名称: addFound
+文件: [旧 WinnerPaid <--> 新 UKDistribution]    函数名称: isFound
+文件: [旧 WinnerPaid <--> 新 UKDistribution]    函数名称: calculateWin
+
+
+开始混淆函数里面局部变量名称。。。。。。。
+
+开始扰乱改变函数里面执行顺序。。。。。。。
+100%👌
+
+
+开始自动生成垃圾代码文件。。。。。。。
+100%👌
+
+
+开始自动融合生成的垃圾代码文件。。。。。。
+100%👌
+
+
+开始自动随机生成属性并插入头文件和源文件。。。。。。。
+[old: LinesSelected -> new: AMain] insert  HashMap<String,String> editPrizesTotal_dictionary;
+private long cycleScreen_mark = 0;
+
+[old: Util -> new: FRSelectorGradle] insert  ArrayList<Integer> selecetedRegister_lList;
+private int creditPayout_tag = 0;
+private HashMap<String,Boolean> numberCreditHomeDictionary;
+boolean isDistributionDownGame = false;
+
+[old: PrizesView -> new: OVDPrizesView] insert  private double entrySettingsSpace = 0.0;
+private int payoutCenterSelectedIdx = 0;
+float destroyPaid_max = 0.0f;
+
+[old: SlotActivity -> new: KQGreenReelsActivity] insert  private HashMap<String,Integer> mainDistributionPaidDict;
+HashMap<String,Long> percentDecrement_map;
+private long percentGreenPercent_idx = 0;
+float totalPayout_min = 0.0f;
+
+[old: PayTable -> new: QMHome] insert  HashMap<String,Integer> spinsReelDistributionDictionary;
+float prizesLoginSpinsOffset = 0.0f;
+
+[old: PayTableScreen -> new: XConfig] insert  private String resetWinStr;
+private ArrayList<Double> dropletSelector_Array;
+private long colorsWinnerFlag = 0;
+
+[old: PrizeCombination -> new: XSelectorRegister] insert  HashMap<String,Boolean> createCreateTableDictionary;
+long sortModityCombination_flag = 0;
+long selecetedRegister_9qCount = 0;
+private HashMap<String,Double> payoutCreditSumMap;
+
+[old: Reels -> new: AALines] insert  String combinationPaidIncrementString;
+private ArrayList<Long> cycleMainList;
+private boolean enbaleMainSumColors = false;
+
+[old: ReelsDistribution -> new: YWMainBuild] insert  boolean can_ManifestEntryModity = false;
+boolean hasColorsHomeCoefficient = false;
+
+[old: LinesSelector -> new: GDSymbolDroplet] insert  long selectedPercentIdx = 0;
+private HashMap<String,Double> slotEntry_map;
+private long prizesGradlewNumber_idx = 0;
+
+[old: Prizes -> new: BCombination] insert  long clearCreate_mark = 0;
+private String numberSettingsStr;
+
+[old: Bet -> new: KLocalDistribution] insert  int winLocal_8l_flag = 0;
+private HashMap<String,String> distributionBuild_dict;
+
+[old: ReelSymbol -> new: VWinner] insert  private boolean is_CoefficientLogin = false;
+private boolean is_SelectedSpins = false;
+float selectorLoginPayoutOffset = 0.0f;
+private String payoutUpdate_m8Str;
+
+[old: Combination -> new: KOTotalPrize] insert  int entryGreenGreenMark = 0;
+private HashMap<String,Double> configCenterDict;
+double linesBasePaidMargin = 0.0;
+private ArrayList<Integer> register_fsColorsSplishArray;
+
+[old: Credit -> new: HSRColorsManifest] insert  HashMap<String,Long> downActivityMap;
+double colorsLinesOffset = 0.0;
+
+[old: TotalBet -> new: WCHLines] insert  private long winnerManifestReels_idx = 0;
+int manifestEditCount = 0;
+HashMap<String,Float> creditSumSlotDict;
+private int utilFrequencySymbol_flag = 0;
+
+[old: PayoutPercent -> new: JGAEntry] insert  float configPayoutLauncher_margin = 0.0f;
+private int winnerTableCoefficientTag = 0;
+
+[old: GameConfig -> new: UFModityDistribution] insert  private int spinsIncrementMark = 0;
+private String winActive_string;
+private boolean has_DropletCenterCredit = false;
+private long reelsNumberSum = 0;
+
+[old: GameScreen -> new: SKEntry] insert  private long combinationTotalEqualsCount = 0;
+private boolean is_TableValue = false;
+float linesPrizes_size = 0.0f;
+
+[old: PayTableEntry -> new: KStylesPaid] insert  private String baseSelectorStyles_str;
+int centerReel_flag = 0;
+
+[old: PrizesFrequency -> new: USplish] insert  boolean has_ResetGreenGradle = false;
+String configCombinationSymbolStr;
+private String paidSplishStr;
+
+[old: WinnerPaid -> new: UKDistribution] insert  private HashMap<String,Double> clickTable_dictionary;
+boolean enbale_BlueReelsConfig = false;
+
+
+
+开始自动加密混淆字符串。。。。。。。
+
+
+开始融合并调用生成的垃圾代码文件函数或者类。。。。。。。
+100%👌
+
+
+开始插入混淆函数并在现有函数体里面自动插入混淆函数调用语句。。。。。。。
+100%👌
+
+
+开始自动插入头文件混淆函数定义语句。。。。。。。
+100%👌
+
+
+开始生成新混淆源文件。。。。。。。
+100%👌

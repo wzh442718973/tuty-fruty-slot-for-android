@@ -10,15 +10,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03c43fb7-64f0-4bfe-b596-8ba9fc05154e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/AlphaMaleModern.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/CFLCD-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/STONE ROCK.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/blip2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/bloop.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fuu.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ought.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/plink2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Bet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Combination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Credit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/GameConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/GameScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/LinesSelected.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/LinesSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PayTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PayTableEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PayTableScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PayoutPercent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PrizeCombination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Prizes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PrizesFrequency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/PrizesView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/ReelSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Reels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/ReelsBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/ReelsDistribution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/SlotActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/TotalBet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gladness/merriment/treat/hilaritypro/WinnerPaid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/background.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/foreground.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_blue_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_green_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_red_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/splish.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_slot.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/droplet.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/pinc.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v11/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v11/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +88,20 @@
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "android-custom-viewS:/android-sdk/sources/android-31/android/view/View.java_SELECTED": "View",
-    "android-custom-viewS:/android-sdk/sources/android-31/android/widget/ImageView.java_SELECTED": "ImageView",
-    "android-custom-viewW:/github/tuty-fruty-slot-for-android/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PrizesView.java_SELECTED": "PrizesView",
-    "cidr.known.project.marker": "true",
-    "project.structure.last.edited": "SDK Location",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;android-custom-viewS:/android-sdk/sources/android-31/android/view/View.java_SELECTED&quot;: &quot;View&quot;,
+    &quot;android-custom-viewS:/android-sdk/sources/android-31/android/widget/ImageView.java_SELECTED&quot;: &quot;ImageView&quot;,
+    &quot;android-custom-viewW:/github/tuty-fruty-slot-for-android/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PrizesView.java_SELECTED&quot;: &quot;PrizesView&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK Location&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="tuty-fruty-slot-for-android.app.main" />
