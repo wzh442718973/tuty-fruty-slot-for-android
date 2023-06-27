@@ -10,99 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03c43fb7-64f0-4bfe-b596-8ba9fc05154e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PrizesView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/foreground.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_slot.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/banner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/AlphaMaleModern.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/AlphaMaleModern.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/CFLCD-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/CFLCD-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/ROCHESTE.TTF" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/ROCHESTE.TTF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/STONE ROCK.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/STONE ROCK.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ic_launcher-web.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proguard-project.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-project.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/lcd_blue_32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_blue_32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/lcd_green_32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_green_32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/lcd_red_32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_red_32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol00.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol00.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol01.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol02.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol03.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol04.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol05.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol06.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol07.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol08.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-xhdpi/symbol09.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/layout/activity_about.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/layout/activity_help.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/layout/activity_inner_banner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/layout/activity_slot.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/layout/activity_splash.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/menu/menu_slot.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/raw/blip2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/blip2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/raw/bloop.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/bloop.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/raw/droplet.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/droplet.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/raw/fuu.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fuu.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/raw/ought.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ought.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/raw/pinc.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/pinc.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/raw/plink2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/plink2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/values-v11/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v11/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/values-v14/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/AboutActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Bet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/Combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Combination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/GameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/GameConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/GameScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/HelpActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/InnerBannerActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/LinesSelected.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/LinesSelected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/LinesSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/LinesSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/PayTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PayTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/PayTableEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PayTableEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/PayTableScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PayTableScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/PayoutPercent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PayoutPercent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/PrizeCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PrizeCombination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/Prizes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Prizes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/PrizesFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/PrizesFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/ReelSymbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/ReelSymbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/Reels.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Reels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/ReelsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/ReelsBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/ReelsDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/ReelsDistribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/SlotActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/SlotActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/SplashActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/TotalBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/TotalBet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/veldsoft/tuty/fruty/slot/WinnerPaid.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/eu/veldsoft/tuty/fruty/slot/WinnerPaid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/background.9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/background.9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/foreground.9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/foreground.9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_blue_32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_blue_32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_green_32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_green_32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_red_32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lcd_red_32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol00.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol00.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol01.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol02.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol03.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol04.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol05.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol06.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol07.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol08.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol09.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/symbol09.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
