@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *

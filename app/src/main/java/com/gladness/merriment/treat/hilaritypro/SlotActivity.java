@@ -1,21 +1,19 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Button;
+
+import com.gladness.merriment.treat.hilaritypro.R;
 
 public class SlotActivity extends Activity {
 	private SoundPool sounds = null;

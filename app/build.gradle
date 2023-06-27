@@ -3,11 +3,11 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId "andy.fusion.debug"
+        applicationId "com.gladness.merriment.treat.hilaritypro"
         minSdkVersion 16
         targetSdkVersion 31
-        versionCode 385
-        versionName "andy_v3.8.5#2"
+        versionCode 1524
+        versionName "1.2.4"
 //        multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 

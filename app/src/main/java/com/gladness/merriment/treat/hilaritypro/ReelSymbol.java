@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *
@@ -21,94 +21,49 @@ package eu.veldsoft.tuty.fruty.slot;
  ******************************************************************************/
 
 /**
- * Implements logic of the bet per line. Player sets bet value. Bet value is
- * limited by minimal and maximal bet. This bet value can be incremented.
- * Incremention is done by fixed value. This bet per line takes part for
- * calculating the total bet.
+ * Holds information for reel symbol.
  *
- * @author Qna Dimova
+ * @author Stanislav Petrov
  *
- * @email q.dimova@gmail.com
+ * @email devilfighter1806@gmail.com
  *
- * @date 10 Sep 2008
+ * @date 27 Oct 2008
  */
-class Bet  {
-	/**
-	 * Bet value per line.
-	 */
-	private long value;
+class ReelSymbol {
 
 	/**
-	 * Minimal bet constant.
+	 * Name of reel symbol. Plus one for null at the end.
 	 */
-	public static final long MIN_BET = 1;
+	private String name;
 
 	/**
-	 * Maximal bet constant.
+	 * Reel symbol constructor.
+	 *
+	 * @param name
+	 *            Name to be set. Plus one for null at the end.
+	 *
+	 * @author Stanislav Petrov
+	 *
+	 * @email devilfighter1806@gmail.com
+	 *
+	 * @date 27 Oct 2008
 	 */
-	public static final long MAX_BET = 10;
-
-	/**
-	 * Increasing bet step constant.
-	 */
-	public static final long BET_STEP = 1;
-
-	public Bet() {
-		value = MIN_BET;
+	public ReelSymbol(final String name) {
+		this.name = name;
 	}
 
 	/**
-	 * Value getter.
+	 * Reel symbol name getter.
 	 *
-	 * @return Value of bet.
+	 * @return Reel symbol name.
 	 *
-	 * @author Anton Dimitrov
+	 * @author Stanislav Petrov
 	 *
-	 * @email anton.naskov@gmail.com
+	 * @email devilfighter1806@gmail.com
 	 *
-	 * @date 10 Sep 2008
+	 * @date 27 Oct 2008
 	 */
-	public long getValue() {
-		return value;
-	}
-
-	/**
-	 * Value setter.
-	 *
-	 * @param value
-	 *            Value of bet.
-	 *
-	 * @author Anton Dimitrov
-	 *
-	 * @email anton.naskov@gmail.com
-	 *
-	 * @date 10 Sep 2008
-	 */
-	public void setValue(final long value) {
-		this.value = value;
-	}
-
-	/**
-	 * Increment bet value. Incremention is done by fixed size bet step. Bet
-	 * step is the value of credits with which the user change the bet value.
-	 * When bet value is greater than maximum bet value, it sets minimal bet
-	 * value.
-	 *
-	 * @author Anton Dimitrov
-	 *
-	 * @email anton.naskov@gmail.com
-	 *
-	 * @date 10 Sep 2008
-	 */
-	public void cycleIncrement() {
-		value += BET_STEP;
-
-		if (value > MAX_BET) {
-			value = MIN_BET;
-		}
-	}
-
-	public void maximum() {
-		value = MAX_BET;
+	public String getName() {
+		return name;
 	}
 }

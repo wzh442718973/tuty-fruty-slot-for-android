@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *
@@ -21,47 +21,43 @@ package eu.veldsoft.tuty.fruty.slot;
  ******************************************************************************/
 
 /**
- * Implement the logic of Game simulation. Control configuration which manage
- * the game. Contain static variable which take care for turning on the
- * simulation.
+ * Implement logic of pay table screen drawing.
  *
  * @author Darina Evtimova
  *
  * @email aleks_f@abv.bg
  *
- * @date 02 Oct 2008
+ * @date 06 Oct 2008
  */
-class GameConfig {
+class PayTableScreen {
 
 	/**
-	 * Text mode constant.
+	 * Takes bet value for calculating the pay table screen.
 	 */
-	public static final int TEXT_MODE = 1;
+	private Bet bet;
 
 	/**
-	 * Graphic mode constant.
+	 * Takes number of selected lines for calculating the pay table screen.
 	 */
-	public static final int GRAPHIC_MODE = 2;
+	private LinesSelector selector;
 
 	/**
-	 * Game vizualization mode.
-	 */
-	public static int videoMode;
-
-	/**
-	 * Control game simulation.
-	 */
-	public static boolean simulation;
-
-	/**
-	 * Changes value of the variable that controls game simulation.
+	 * Constructor. Takes care of initialization of pay table canvas, pay table
+	 * bet and pay table lines selector.
 	 *
-	 * @author Qna Dimova
+	 * @param canvas
+	 *            Visual components in pay table screen will be drawn on text
+	 *            canvas.
 	 *
-	 * @email q.dimova@gmail.com
+	 * @param game
+	 *            Contain value of bet and number of selected lines.
+	 *
+	 * @author Darina Evtimova
+	 *
+	 * @email aleks_f@abv.bg
 	 *
 	 * @date 26 Oct 2008
 	 */
-	public static void switchSimulation() {
+	public PayTableScreen(GameScreen game) {
 	}
 }

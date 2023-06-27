@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *
@@ -21,43 +21,89 @@ package eu.veldsoft.tuty.fruty.slot;
  ******************************************************************************/
 
 /**
- * Implement logic of pay table screen drawing.
+ * Calculating pay out percent.
  *
- * @author Darina Evtimova
+ * @author Anton Dimitrov
  *
- * @email aleks_f@abv.bg
+ * @email anton.naskov@gmail.com
  *
- * @date 06 Oct 2008
+ * @date 13 Oct 2008
  */
-class PayTableScreen {
+class PayoutPercent {
 
 	/**
-	 * Takes bet value for calculating the pay table screen.
+	 * Sum all bets which player has done.
 	 */
-	private Bet bet;
+	private long sumBet;
 
 	/**
-	 * Takes number of selected lines for calculating the pay table screen.
+	 * Sum all wins which player has done.
 	 */
-	private LinesSelector selector;
+	private long sumWin;
 
 	/**
-	 * Constructor. Takes care of initialization of pay table canvas, pay table
-	 * bet and pay table lines selector.
-	 *
-	 * @param canvas
-	 *            Visual components in pay table screen will be drawn on text
-	 *            canvas.
-	 *
-	 * @param game
-	 *            Contain value of bet and number of selected lines.
-	 *
-	 * @author Darina Evtimova
-	 *
-	 * @email aleks_f@abv.bg
-	 *
-	 * @date 26 Oct 2008
+	 * Pay out percent value.
 	 */
-	public PayTableScreen(GameScreen game) {
+	private double value;
+
+	/**
+	 * Update pay out percent value.
+	 *
+	 * @author Anton Dimitrov
+	 *
+	 * @email anton.naskov@gmail.com
+	 *
+	 * @date 13 Oct 2008
+	 */
+	private void update() {
+	}
+
+	/**
+	 * Reset sum win, sum bet and pay out percent value.
+	 *
+	 * @author Anton Dimitrov
+	 *
+	 * @email anton.naskov@gmail.com
+	 *
+	 * @date 13 Oct 2008
+	 */
+	public void reset() {
+	}
+
+	/**
+	 * Increase the sum of bet.
+	 *
+	 * @author Anton Dimitrov
+	 *
+	 * @email anton.naskov@gmail.com
+	 *
+	 * @date 13 Oct 2008
+	 */
+	public void increaseSumBet(long sumBet) {
+	}
+
+	/**
+	 * Increase the sum of win.
+	 *
+	 * @author Anton Dimitrov
+	 *
+	 * @email anton.naskov@gmail.com
+	 *
+	 * @date 13 Oct 2008
+	 */
+	public void increaseSumWin(long sumWin) {
+	}
+
+	/**
+	 * Pay out percent value getter.
+	 *
+	 * @author Anton Dimitrov
+	 *
+	 * @email anton.naskov@gmail.com
+	 *
+	 * @date 13 Oct 2008
+	 */
+	public double getValue() {
+		return 0.0;
 	}
 }

@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *
@@ -21,145 +21,116 @@ package eu.veldsoft.tuty.fruty.slot;
  ******************************************************************************/
 
 /**
- * Implements logic of calculating frequency of prizes.
+ * Implements logic of pay table entry. Each pay table entry contains
+ * information about type of symbol, number of meetings of this symbol and pay
+ * out values depending on the number of times the symbol is repeated in the
+ * line. Besides pay out values for symbols are calculated from bet value per
+ * line,number of selected lines and symobol's coefficient.
  *
- * @author Darina Evtimova
+ * @author Anton Dimitrov
  *
- * @email aleks_f@abv.bg
+ * @email anton.naskov@gmail.com
  *
- * @date 14 Oct 2008
+ * @date 15 Sep 2008
  */
-class PrizesFrequency {
+class PayTableEntry {
 
 	/**
-	 * Maximum number of prizes.
+	 * Prize combination flag.
 	 */
-	public static final int MAX_NUMBER_OF_PRIZES = 1000;
+	private PrizeCombination prizeCombination = null;
 
 	/**
-	 * Size of prizes names.
+	 * Value, calculated from bet per line and number of lines with a special
+	 * function.
 	 */
-	public static final int SIZE_OF_PRIZES_NAMES = 100;
-
-	/**
-	 * Number of prizes under frequency test.
-	 */
-	private int numberOfPrizes;
-
-	/**
-	 * List of the prizes under frequency test.
-	 */
-	private char prizes[][] = new char[MAX_NUMBER_OF_PRIZES][SIZE_OF_PRIZES_NAMES];
-
-	/**
-	 * It contain count of frequencies.
-	 */
-	private long counters[] = new long[MAX_NUMBER_OF_PRIZES];
-
-	/**
-	 * Total number of spins.
-	 */
-	private long totalNumberOfSpins;
+	private long value = 0;
 
 	/**
 	 * Default constructor.
 	 *
-	 * @author Darina Evtimova
+	 * @author Stanislav Petrov
 	 *
-	 * @email aleks_f@abv.bg
+	 * @email devilfighter1806@gmail.com
 	 *
-	 * @date 14 Oct 2008
+	 * @date 18 Sep 2008
 	 */
-	public PrizesFrequency() {
+	public PayTableEntry() {
 	}
 
 	/**
-	 * Initialize with zeros all counters.
+	 * Constructor.
 	 *
-	 * @author Darina Evtimova
+	 * @author Stanislav Petrov
 	 *
-	 * @email aleks_f@abv.bg
+	 * @email devilfighter1806@gmail.com
 	 *
-	 * @date 14 Oct 2008
+	 * @date 18 Sep 2008
 	 */
-	public void reset() {
+	public PayTableEntry(final PrizeCombination prizeCombination, long value) {
+		this.prizeCombination = prizeCombination;
+		this.value = value;
 	}
 
 	/**
-	 * Increment frequency of given prize.
+	 * Prize combination getter.
 	 *
-	 * @param name
-	 *            Name of the prize which frequency should be increment.
+	 * @return Prize combination flag.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 14 Oct 2008
+	 * @date 15 Sep 2008
 	 */
-	public void increment(String name) {
+	public final PrizeCombination getPrizeCombination() {
+		return prizeCombination;
 	}
 
 	/**
-	 * Increment number of spins.
+	 * Prize combination setter.
+	 *
+	 * @param prizeCombination
+	 *            Prize combination flag.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 14 Oct 2008
+	 * @date 15 Sep 2008
 	 */
-	public void incrementSpins() {
+	public void setPrizeCombination(final PrizeCombination prizeCombination) {
+		this.prizeCombination = prizeCombination;
 	}
 
 	/**
-	 * Number of spins getter.
+	 * Value getter.
 	 *
-	 * @return Total number of spins.
+	 * @return Value, calculated from bet per line and number of lines.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 15 Oct 2008
+	 * @date 15 Sep 2008
 	 */
-	public long getTotalNumberOfSpins() {
-		return 0;
+	public long getValue() {
+		return value;
 	}
 
 	/**
-	 * Sort prizes frequencies by name.
+	 * Value setter.
 	 *
-	 * @author Qna Dimova
-	 *
-	 * @email q.dimova@gmail.com
-	 *
-	 * @date 17 Oct 2008
-	 */
-	public void sortByName() {
-	}
-
-	/**
-	 * Sort prizes frequencies by frequencies.
-	 *
-	 * @author Darina Evtimova
-	 *
-	 * @email aleks_f@abv.bg
-	 *
-	 * @date 17 Oct 2008
-	 */
-	public void sortByFrequency() {
-	}
-
-	/**
-	 * Print frequencies.
+	 * @param value
+	 *            Value, calculated from bet per line and number of lines.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 14 Oct 2008
+	 * @date 15 Sep 2008
 	 */
-	public void print() {
+	public void setValue(final long value) {
+		this.value = value;
 	}
 }

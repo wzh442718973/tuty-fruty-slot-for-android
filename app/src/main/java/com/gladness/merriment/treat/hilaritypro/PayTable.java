@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *
@@ -21,86 +21,93 @@ package eu.veldsoft.tuty.fruty.slot;
  ******************************************************************************/
 
 /**
- * Implements logic of the credits. Player has credits to set bet value per
- * line. Gives information to player about the credit amount he has. Credit is
- * incremented when player puts some cash for additional credit. When the player
- * bets a value per line the credit is decremented with the relevant amount.
+ * Implements logic of pay table. Fills pay table with different pay table
+ * entries and hold its contents. Summarize pay out values for all type symbols.
+ * Defines the pay out rules for player and how much credits he gets when he
+ * wins. Holds fiexed size number of pay table entries.
  *
- * @author Qna Dimova
+ * @author Stanislav Petrov
  *
- * @email q.dimova@gmail.com
+ * @email devilfighter1806@gmail.com
  *
- * @date 11 Sep 2008
+ * @date 15 Sep 2008
  */
-class Credit  {
+class PayTable  {
 
 	/**
-	 * Credit value.
+	 * Number of entries.
 	 */
-	private long value = 0;
+	public static final int NUMBER_OF_ENTRIES = Prizes.NUMBER_OF_COMBINATIONS;
 
 	/**
-	 * Credit value getter.
-	 *
-	 * @return Value of credit.
-	 *
-	 * @author Anton Dimitrov
-	 *
-	 * @email anton.naskov@gmail.com
-	 *
-	 * @date 11 Sep 2008
+	 * Entry for pay table initializing.
 	 */
-	public long getValue() {
-		return value;
+	private PayTableEntry entries[] = new PayTableEntry[NUMBER_OF_ENTRIES];
+
+	/**
+	 * Default constructor.
+	 *
+	 * @author Darina Evtimova
+	 *
+	 * @email aleks_f@abv.bg
+	 *
+	 * @date 18 Sep 2008
+	 */
+	public PayTable() {
 	}
 
 	/**
-	 * Credit value setter.
+	 * Constructor.
 	 *
-	 * @param value
-	 *            Value of credit.
+	 * @param entries
+	 *            Array from PayTableEntry.
 	 *
-	 * @author Anton Dimitrov
+	 * @author Darina Evtimova
 	 *
-	 * @email anton.naskov@gmail.com
+	 * @email aleks_f@abv.bg
 	 *
-	 * @date 11 Sep 2008
+	 * @date 18 Sep 2008
 	 */
-	public void setValue(final long value) {
-		this.value = value;
+	public PayTable(PayTableEntry entries[]) {
+		for (int i = 0; i < NUMBER_OF_ENTRIES; i++) {
+			this.entries[i] = entries[i];
+		}
 	}
 
 	/**
-	 * Increment credit value. Incrementation is done by amount. Amount is a
-	 * cash which player puts in the slot machine.
+	 * Entry getter.
 	 *
-	 * @param amount
-	 *            Value with which player increment the credit value.
+	 * @param index
+	 *            Shows the entry of the array that will be taken
+	 *
+	 * @return Pay table entry.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 11 Sep 2008
+	 * @date 15 Sep 2008
 	 */
-	public void increment(final long amount) {
-		value += amount;
+	public PayTableEntry getEntry(int index) {
+		return entries[index];
 	}
 
 	/**
-	 * Decrements credit value. Decrementation is done by amount. Amount is cash
-	 * when player takes credits when he wants to get the won credits or when he
-	 * wants to bet.
+	 * Entry setter.
 	 *
-	 * @param amount
+	 * @param entry
+	 *            Entry which is set.
+	 *
+	 * @param index
+	 *            Position in array, where entry should be set.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 11 Sep 2008
+	 * @date 15 Sep 2008
 	 */
-	public void decrement(final long amount) {
-		value -= amount;
+	public void setEntry(PayTableEntry entry, int index) {
+		this.entries[index] = entry;
 	}
 }

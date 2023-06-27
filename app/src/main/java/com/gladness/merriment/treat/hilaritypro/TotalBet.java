@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *
@@ -21,93 +21,81 @@ package eu.veldsoft.tuty.fruty.slot;
  ******************************************************************************/
 
 /**
- * Implements logic of pay table. Fills pay table with different pay table
- * entries and hold its contents. Summarize pay out values for all type symbols.
- * Defines the pay out rules for player and how much credits he gets when he
- * wins. Holds fiexed size number of pay table entries.
+ * Implements logic of the total bet. Holds bet value per line. Holds selected
+ * lines and their number. Holds total bet value and updates total bet value.
+ * The total bet value is calculated by multiplying number of lines and bet
+ * value per line.
  *
- * @author Stanislav Petrov
+ * @author Qna Dimova
  *
- * @email devilfighter1806@gmail.com
+ * @email q.dimova@gmail.com
  *
- * @date 15 Sep 2008
+ * @date 11 Sep 2008
  */
-class PayTable  {
+class TotalBet  {
 
 	/**
-	 * Number of entries.
+	 * Bet pointer.
 	 */
-	public static final int NUMBER_OF_ENTRIES = Prizes.NUMBER_OF_COMBINATIONS;
+	private Bet bet;
 
 	/**
-	 * Entry for pay table initializing.
+	 * Lines selected pointer.
 	 */
-	private PayTableEntry entries[] = new PayTableEntry[NUMBER_OF_ENTRIES];
+	private LinesSelected lines;
 
 	/**
-	 * Default constructor.
-	 *
-	 * @author Darina Evtimova
-	 *
-	 * @email aleks_f@abv.bg
-	 *
-	 * @date 18 Sep 2008
+	 * Value of total bet.
 	 */
-	public PayTable() {
-	}
+	private long value;
 
 	/**
 	 * Constructor.
 	 *
-	 * @param entries
-	 *            Array from PayTableEntry.
+	 * @param bet
+	 *            Source for bet value.
 	 *
-	 * @author Darina Evtimova
+	 * @param lines
+	 *            Source for number of lines.
 	 *
-	 * @email aleks_f@abv.bg
+	 * @author Stanislav Petrov
 	 *
-	 * @date 18 Sep 2008
+	 * @email devilifighter1806@gmail.com
+	 *
+	 * @date 09 Oct 2008
 	 */
-	public PayTable(PayTableEntry entries[]) {
-		for (int i = 0; i < NUMBER_OF_ENTRIES; i++) {
-			this.entries[i] = entries[i];
-		}
+	public TotalBet(Bet bet, LinesSelected lines) {
+		this.bet = bet;
+		this.lines = lines;
+		update();
 	}
 
 	/**
-	 * Entry getter.
+	 * Value of a total bet getter.
 	 *
-	 * @param index
-	 *            Shows the entry of the array that will be taken
-	 *
-	 * @return Pay table entry.
+	 * @return Value of a total bet.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 15 Sep 2008
+	 * @date 11 Sep 2008
 	 */
-	public PayTableEntry getEntry(int index) {
-		return entries[index];
+	public long getValue() {
+		return value;
 	}
 
 	/**
-	 * Entry setter.
-	 *
-	 * @param entry
-	 *            Entry which is set.
-	 *
-	 * @param index
-	 *            Position in array, where entry should be set.
+	 * Update total bet value. Total bet value depends on bet value per line and
+	 * number of selected lines.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 15 Sep 2008
+	 * @date 11 Sep 2008
 	 */
-	public void setEntry(PayTableEntry entry, int index) {
-		this.entries[index] = entry;
+	public void update() {
+		value = bet.getValue() * lines.getSelector().numberOfSelectedLines();
 	}
 }

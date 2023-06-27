@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *
@@ -21,116 +21,86 @@ package eu.veldsoft.tuty.fruty.slot;
  ******************************************************************************/
 
 /**
- * Implements logic of pay table entry. Each pay table entry contains
- * information about type of symbol, number of meetings of this symbol and pay
- * out values depending on the number of times the symbol is repeated in the
- * line. Besides pay out values for symbols are calculated from bet value per
- * line,number of selected lines and symobol's coefficient.
+ * Implements logic of the credits. Player has credits to set bet value per
+ * line. Gives information to player about the credit amount he has. Credit is
+ * incremented when player puts some cash for additional credit. When the player
+ * bets a value per line the credit is decremented with the relevant amount.
  *
- * @author Anton Dimitrov
+ * @author Qna Dimova
  *
- * @email anton.naskov@gmail.com
+ * @email q.dimova@gmail.com
  *
- * @date 15 Sep 2008
+ * @date 11 Sep 2008
  */
-class PayTableEntry {
+class Credit  {
 
 	/**
-	 * Prize combination flag.
-	 */
-	private PrizeCombination prizeCombination = null;
-
-	/**
-	 * Value, calculated from bet per line and number of lines with a special
-	 * function.
+	 * Credit value.
 	 */
 	private long value = 0;
 
 	/**
-	 * Default constructor.
+	 * Credit value getter.
 	 *
-	 * @author Stanislav Petrov
-	 *
-	 * @email devilfighter1806@gmail.com
-	 *
-	 * @date 18 Sep 2008
-	 */
-	public PayTableEntry() {
-	}
-
-	/**
-	 * Constructor.
-	 *
-	 * @author Stanislav Petrov
-	 *
-	 * @email devilfighter1806@gmail.com
-	 *
-	 * @date 18 Sep 2008
-	 */
-	public PayTableEntry(final PrizeCombination prizeCombination, long value) {
-		this.prizeCombination = prizeCombination;
-		this.value = value;
-	}
-
-	/**
-	 * Prize combination getter.
-	 *
-	 * @return Prize combination flag.
+	 * @return Value of credit.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 15 Sep 2008
-	 */
-	public final PrizeCombination getPrizeCombination() {
-		return prizeCombination;
-	}
-
-	/**
-	 * Prize combination setter.
-	 *
-	 * @param prizeCombination
-	 *            Prize combination flag.
-	 *
-	 * @author Anton Dimitrov
-	 *
-	 * @email anton.naskov@gmail.com
-	 *
-	 * @date 15 Sep 2008
-	 */
-	public void setPrizeCombination(final PrizeCombination prizeCombination) {
-		this.prizeCombination = prizeCombination;
-	}
-
-	/**
-	 * Value getter.
-	 *
-	 * @return Value, calculated from bet per line and number of lines.
-	 *
-	 * @author Anton Dimitrov
-	 *
-	 * @email anton.naskov@gmail.com
-	 *
-	 * @date 15 Sep 2008
+	 * @date 11 Sep 2008
 	 */
 	public long getValue() {
 		return value;
 	}
 
 	/**
-	 * Value setter.
+	 * Credit value setter.
 	 *
 	 * @param value
-	 *            Value, calculated from bet per line and number of lines.
+	 *            Value of credit.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 15 Sep 2008
+	 * @date 11 Sep 2008
 	 */
 	public void setValue(final long value) {
 		this.value = value;
+	}
+
+	/**
+	 * Increment credit value. Incrementation is done by amount. Amount is a
+	 * cash which player puts in the slot machine.
+	 *
+	 * @param amount
+	 *            Value with which player increment the credit value.
+	 *
+	 * @author Anton Dimitrov
+	 *
+	 * @email anton.naskov@gmail.com
+	 *
+	 * @date 11 Sep 2008
+	 */
+	public void increment(final long amount) {
+		value += amount;
+	}
+
+	/**
+	 * Decrements credit value. Decrementation is done by amount. Amount is cash
+	 * when player takes credits when he wants to get the won credits or when he
+	 * wants to bet.
+	 *
+	 * @param amount
+	 *
+	 * @author Anton Dimitrov
+	 *
+	 * @email anton.naskov@gmail.com
+	 *
+	 * @date 11 Sep 2008
+	 */
+	public void decrement(final long amount) {
+		value -= amount;
 	}
 }

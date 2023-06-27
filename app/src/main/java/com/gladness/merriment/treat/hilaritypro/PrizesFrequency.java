@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *
@@ -21,89 +21,145 @@ package eu.veldsoft.tuty.fruty.slot;
  ******************************************************************************/
 
 /**
- * Calculating pay out percent.
+ * Implements logic of calculating frequency of prizes.
  *
- * @author Anton Dimitrov
+ * @author Darina Evtimova
  *
- * @email anton.naskov@gmail.com
+ * @email aleks_f@abv.bg
  *
- * @date 13 Oct 2008
+ * @date 14 Oct 2008
  */
-class PayoutPercent {
+class PrizesFrequency {
 
 	/**
-	 * Sum all bets which player has done.
+	 * Maximum number of prizes.
 	 */
-	private long sumBet;
+	public static final int MAX_NUMBER_OF_PRIZES = 1000;
 
 	/**
-	 * Sum all wins which player has done.
+	 * Size of prizes names.
 	 */
-	private long sumWin;
+	public static final int SIZE_OF_PRIZES_NAMES = 100;
 
 	/**
-	 * Pay out percent value.
+	 * Number of prizes under frequency test.
 	 */
-	private double value;
+	private int numberOfPrizes;
 
 	/**
-	 * Update pay out percent value.
+	 * List of the prizes under frequency test.
+	 */
+	private char prizes[][] = new char[MAX_NUMBER_OF_PRIZES][SIZE_OF_PRIZES_NAMES];
+
+	/**
+	 * It contain count of frequencies.
+	 */
+	private long counters[] = new long[MAX_NUMBER_OF_PRIZES];
+
+	/**
+	 * Total number of spins.
+	 */
+	private long totalNumberOfSpins;
+
+	/**
+	 * Default constructor.
 	 *
-	 * @author Anton Dimitrov
+	 * @author Darina Evtimova
 	 *
-	 * @email anton.naskov@gmail.com
+	 * @email aleks_f@abv.bg
 	 *
-	 * @date 13 Oct 2008
+	 * @date 14 Oct 2008
 	 */
-	private void update() {
+	public PrizesFrequency() {
 	}
 
 	/**
-	 * Reset sum win, sum bet and pay out percent value.
+	 * Initialize with zeros all counters.
 	 *
-	 * @author Anton Dimitrov
+	 * @author Darina Evtimova
 	 *
-	 * @email anton.naskov@gmail.com
+	 * @email aleks_f@abv.bg
 	 *
-	 * @date 13 Oct 2008
+	 * @date 14 Oct 2008
 	 */
 	public void reset() {
 	}
 
 	/**
-	 * Increase the sum of bet.
+	 * Increment frequency of given prize.
+	 *
+	 * @param name
+	 *            Name of the prize which frequency should be increment.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 13 Oct 2008
+	 * @date 14 Oct 2008
 	 */
-	public void increaseSumBet(long sumBet) {
+	public void increment(String name) {
 	}
 
 	/**
-	 * Increase the sum of win.
+	 * Increment number of spins.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 13 Oct 2008
+	 * @date 14 Oct 2008
 	 */
-	public void increaseSumWin(long sumWin) {
+	public void incrementSpins() {
 	}
 
 	/**
-	 * Pay out percent value getter.
+	 * Number of spins getter.
+	 *
+	 * @return Total number of spins.
 	 *
 	 * @author Anton Dimitrov
 	 *
 	 * @email anton.naskov@gmail.com
 	 *
-	 * @date 13 Oct 2008
+	 * @date 15 Oct 2008
 	 */
-	public double getValue() {
-		return 0.0;
+	public long getTotalNumberOfSpins() {
+		return 0;
+	}
+
+	/**
+	 * Sort prizes frequencies by name.
+	 *
+	 * @author Qna Dimova
+	 *
+	 * @email q.dimova@gmail.com
+	 *
+	 * @date 17 Oct 2008
+	 */
+	public void sortByName() {
+	}
+
+	/**
+	 * Sort prizes frequencies by frequencies.
+	 *
+	 * @author Darina Evtimova
+	 *
+	 * @email aleks_f@abv.bg
+	 *
+	 * @date 17 Oct 2008
+	 */
+	public void sortByFrequency() {
+	}
+
+	/**
+	 * Print frequencies.
+	 *
+	 * @author Anton Dimitrov
+	 *
+	 * @email anton.naskov@gmail.com
+	 *
+	 * @date 14 Oct 2008
+	 */
+	public void print() {
 	}
 }

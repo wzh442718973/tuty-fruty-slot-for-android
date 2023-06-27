@@ -1,4 +1,4 @@
-package eu.veldsoft.tuty.fruty.slot;
+package com.gladness.merriment.treat.hilaritypro;
 
 /*******************************************************************************
  *                                                                             *
@@ -21,81 +21,47 @@ package eu.veldsoft.tuty.fruty.slot;
  ******************************************************************************/
 
 /**
- * Implements logic of the total bet. Holds bet value per line. Holds selected
- * lines and their number. Holds total bet value and updates total bet value.
- * The total bet value is calculated by multiplying number of lines and bet
- * value per line.
+ * Implement the logic of Game simulation. Control configuration which manage
+ * the game. Contain static variable which take care for turning on the
+ * simulation.
  *
- * @author Qna Dimova
+ * @author Darina Evtimova
  *
- * @email q.dimova@gmail.com
+ * @email aleks_f@abv.bg
  *
- * @date 11 Sep 2008
+ * @date 02 Oct 2008
  */
-class TotalBet  {
+class GameConfig {
 
 	/**
-	 * Bet pointer.
+	 * Text mode constant.
 	 */
-	private Bet bet;
+	public static final int TEXT_MODE = 1;
 
 	/**
-	 * Lines selected pointer.
+	 * Graphic mode constant.
 	 */
-	private LinesSelected lines;
+	public static final int GRAPHIC_MODE = 2;
 
 	/**
-	 * Value of total bet.
+	 * Game vizualization mode.
 	 */
-	private long value;
+	public static int videoMode;
 
 	/**
-	 * Constructor.
-	 *
-	 * @param bet
-	 *            Source for bet value.
-	 *
-	 * @param lines
-	 *            Source for number of lines.
-	 *
-	 * @author Stanislav Petrov
-	 *
-	 * @email devilifighter1806@gmail.com
-	 *
-	 * @date 09 Oct 2008
+	 * Control game simulation.
 	 */
-	public TotalBet(Bet bet, LinesSelected lines) {
-		this.bet = bet;
-		this.lines = lines;
-		update();
-	}
+	public static boolean simulation;
 
 	/**
-	 * Value of a total bet getter.
+	 * Changes value of the variable that controls game simulation.
 	 *
-	 * @return Value of a total bet.
+	 * @author Qna Dimova
 	 *
-	 * @author Anton Dimitrov
+	 * @email q.dimova@gmail.com
 	 *
-	 * @email anton.naskov@gmail.com
-	 *
-	 * @date 11 Sep 2008
+	 * @date 26 Oct 2008
 	 */
-	public long getValue() {
-		return value;
-	}
-
-	/**
-	 * Update total bet value. Total bet value depends on bet value per line and
-	 * number of selected lines.
-	 *
-	 * @author Anton Dimitrov
-	 *
-	 * @email anton.naskov@gmail.com
-	 *
-	 * @date 11 Sep 2008
-	 */
-	public void update() {
-		value = bet.getValue() * lines.getSelector().numberOfSelectedLines();
+	public static void switchSimulation() {
 	}
 }
